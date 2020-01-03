@@ -1,8 +1,8 @@
-var Body = document.querySelector(".container");
-var mainBody = document.querySelector(".clock-container");
-var Hours = document.querySelector("#hours");
-var Minutes = document.querySelector("#minutes");
-var Seconds = document.querySelector("#seconds");
+var Body = document.querySelector(".container"),
+     mainBody = document.querySelector(".clock-container"),
+     Hours = document.querySelector("#hours"),
+     Minutes = document.querySelector("#minutes"),
+     Seconds = document.querySelector("#seconds");
 
 function digitalWatch(){
     var hours,minutes,seconds;
@@ -26,9 +26,9 @@ function digitalWatch(){
     Minutes.innerHTML = minutes+" :";
     Seconds.innerHTML = seconds;
    
-   var ranOne = Math.round(Math.random()*255);
-   var ranTwo = Math.round(Math.random()*100);
-   var ranThree = Math.round(Math.random()*145);
+   var ranOne = Math.round(Math.random()*255),
+       ranTwo = Math.round(Math.random()*100),
+       ranThree = Math.round(Math.random()*145);
    
    
    
